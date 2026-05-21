@@ -1,0 +1,27 @@
+# Virtual Environments
+    venv/
+    env/
+    .env/
+    ENV/
+    
+    # Large Dataset files
+    *.csv
+    *.json
+    *.xlsx
+    *.zip
+    *.tar.gz
+    
+    # ML Model weights / checkpoints
+    *.pkl
+    *.h5
+    *.pt
+    *.pth
+    *.joblib
+    
+    # Jupyter Notebook checkpoints
+    .ipynb_checkpoints/
+    ```
+  
+  
+    Initialize your repository, add the files (it will automatically skip everything we just
+     put in the `.gitignore`), and make your first commit:
